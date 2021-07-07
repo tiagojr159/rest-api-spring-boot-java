@@ -11,10 +11,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>rest-api-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-api-spring</name>
+	<name>rest-api-spring-boot-java</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+	<java.version>11</java.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>

@@ -30,7 +30,7 @@ public class CarroController {
 	
 	@GetMapping("/carro/{id}")
 	public Carro getCarroById(@PathVariable Long id) {
-		return repositorio.getOne(id);
+		return repositorio.findById(id).get();
 	}
 	
 	@DeleteMapping("/carro/{id}")
